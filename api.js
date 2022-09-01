@@ -1,6 +1,7 @@
 async function getStarWarsAPI() {
+  console.log('chamou')
   try {
-    const swAPI = await fetch('https://swapi.dev/api/people/1/');
+    const swAPI = await fetch('https://swapi.dev/api/people/4/');
     const swAPIConverted = await swAPI.json();
     if (!swAPI.ok) {
       throw new Error ('Error in getting API')
@@ -32,3 +33,5 @@ async function getStarWarsAPI() {
     console.log(error)
   }
 }
+
+getStarWarsAPI();
