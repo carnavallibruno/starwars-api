@@ -16,3 +16,22 @@ label {
   margin-top: 1rem;
   margin: 0 1rem;
 }
+
+.form-container {
+  
+}
+
+.btn-primary {
+  box-shadow: 0px 0px 5px 2.5px;
+}
+
+.btn-primary:hover {
+  color: #052875;
+  background-color: white;
+  border-color: #052875;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 4rem;
+}
